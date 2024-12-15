@@ -1,0 +1,153 @@
+ ZADATAK 1 - MERCEDES
+
+ <html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+<title>Prvi kolokvij - Zadatak 1</title>
+</head>
+
+<body bgcolor="black">
+<font color="yellow" face="Arial, Tahoma, Verdana" size="4">
+<i>Naslov ove stranice je "Prvi zadatak - 1. kolokvij iz Internet programiranja", a boja pozadine je crna. Ova slova su kurzivna.</i>
+<br>Ovaj tekst je u novom redu. Slova su žute boje, te se kao glavni font koristi Arial, te ukoliko taj font ne postoji onda se koriste Tahoma, ili Verdana. Veličina slova je 4.
+<p align="justify">
+Ovo je paragraf, čiji je sadržaj poravnat sa obje strane. </p>
+</font>
+
+
+<div align="center">
+<table width="1024px" cellspacing="0" cellpadding="3" border="2">
+
+
+<tr>
+<td colspan="3" align="center">
+<font color="white">
+Ova tabela je duga 1024px, te se nalazi u centru divizijskog elementa. Razmak između njenih ćelija je 0, a razmak između sadržaja ćelije i okvira ćelije je 3.
+Debljina okvira je 2. Ovaj sadržaj je centriran u ćeliji. Sva slova su bijele boje, osim u ćeliji ispod lijevo i linkova, te se koristi default-na veličina i vrsta fonta. 
+</font>
+</td>
+</tr>
+
+
+<tr>
+<td width="20%" valign="top" bgcolor="white">
+Širina ove kolone je 20%, a sadržaj ove ćelije je poravnat vertikalno prema vrhu ćelije. Boja pozadine je bijela.
+<b>Univerzitet u Bihaću:</b>
+<ul type="circle">
+<li>Tehnički fakultet</li>
+<li>Ekonomski fakultet</li>
+<li>Pedagoški fakultet</li>
+<li>Biotehnički fakultet</li>
+<li>Pravni fakultet</li>
+<li>Fakultet zdravstvenih studija</li>
+<li>Islamsko pedagoški fakultet</li>
+</ul>
+</td>
+
+
+<td align="center">
+<img src="slike/w168.jpg" alt="w168" height="200" width="350"><br>
+<font color="white">
+Dimenzije ove slike su 350x200. Alternativni tekst slike je "Slika w168". Naziv slike w168.png i nalazi se u folder-u slike.</font>
+</td>
+
+
+<td width="20%" valign="bottom">
+<font color="white">
+Širina ove kolone je 20%. Sadržaj je poravnat vertikalno prema dnu ćelije. </font></td>
+</tr>
+
+
+<tr>
+<td colspan="3">
+<font color="white">
+Ocjenite svoj rad:
+<form>
+<input type="radio" name="x"/>1 (nedovoljan)<br>
+<input type="radio" name="x"/>2(zadovoljan)<br>
+<input type="radio" name="x"/>3(dobar)<br>
+<input type="radio" name="x"/>4(vrlodobar)<br>
+<input type="radio" name="x" checked="checked"/>5(odličan - default-na opcija)<br>
+</form>
+</font>
+</td>
+</tr>
+
+
+<tr>
+<td colspan="3" align="center">
+<font color="white">
+<i>Hana Midžić (1260) </i><br>
+Klikom na ovaj <a href="zadatak2.html"> link</a>, prikazuje se stranica drugog zadatka.</font>
+</td>
+</tr>
+</table>
+</div>
+
+
+</body>
+</html>
+
+
+
+ZADATAK 2 - NASLOV ČLANKA CSS
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>I kolokvij - II zadatak</title>
+</head>
+
+<body>
+    <div class="navigacijskiDiv">
+        <ul>
+            <li><a href="zadatak2.html">Početna</a></li>
+            <li><a href="zadatak1.html">Prvi Zadatak</a></li>
+            <li><a href="hana.html">Hana Midžić</a></li>
+        </ul>
+</div>
+
+<h1 class="naslov">Naslov članka</h1>
+<p><a href="hana.html" class="autor">Autor članka - link</a></p>
+
+ <table width="100%" cellspacing="2"cellpadding="0">
+        <tr>
+            <td class="sadržaj">
+                <div class="sadržaj">Sadržaj</div>
+    <ol>
+        <li>Overview
+            <ol>
+                <li>Motivation</li>
+                <li>Relationship to HTML</li>
+                <li>Adoption</li>
+                <li>Criticism</li>
+            </ol>
+        </li>
+        <li>Versions of XHTML
+            <ol>
+                <li>XHTML 1.0</li>
+                <li>Modularization of XHTML</li>
+                <li>XHTML 1.1: Module-based XHTML</li>
+                <li>Criticism
+                    <ol>
+                        <li>XHTML-Print</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+    </ol>
+
+            <td class="clanak">
+                <p>
+                    <span class="pojam">HTML (Extensible HyperText Markup Language</span>
+					is a family of XML markup languages that mirror or extend version of the widely used Hypertext Markup Language (HTML), 
+					the language in which web pages are written.
+                </p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
