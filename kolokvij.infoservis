@@ -1,41 +1,34 @@
 
 PRVI ZADATAK - INFOSERVIS
-<html xmlns="http://www.w3.org/1999/xhtml">
+
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>  Internet programiranje (I KOLOKVIJ) </title>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+<title>Prvi kolokvij - Zadatak 1</title>
 </head>
 
-
 <body>
-<table width="100%" cellspacing="default" cellpading="2" border="2">
+<table width="100%" cellspacing="default" cellpadding="2" border="2">
 <tr bgcolor="#DDDDDD" align="center"> 
 <td colspan="3">
 <font face="Arial, Tahoma, Verdana" size="3"><b>I kolokvij - I zadatak</b></font>
 </td>
-
-
 </tr>
-
 
 <tr> 
-<td rowspan="2" width="25%">
-<b><code> Formatirani tekst može se koristiti za pisanje te je ovaj tekst još podebljan. </code></b>
+<td rowspan="2" width="25%" align="left" valign="center">
+<b>Performatiran tekst može se koristiti za pisanje poezije
+te je ovaj tekst još podebljan.</b>
 </td>
-
 
 <td align="center">
-<i><b><u>Forma za registraciju </u></b></i>
+<i><b><u>Forma za registraciju</u></b></i>
 </td>
-
 
 <td rowspan="2" width="25%">
-<font color = "#44DD44" align="right">Slova paragrafa su obojana sa #44DD44 nijansom, zatim je izvršeno desno poravnanje. Iza ove rečenice izvršen je prekid reda. <br/>
-<b>Ovaj tekst je još i podebljan. </b>
-</font>
+<font color = "#44DD44" align="right">Slova paragrafa su obojana sa #44DD44 nijansom, zatim je izvršeno desno poravnanje. Iza ove rečenice izvršen je prekid reda. <br/><b>Ovaj tekst je još i podebljan.</b></font>
 </td>
 </tr>
-
 
 <tr> 
 <td rowspan ="2">
@@ -48,67 +41,45 @@ PRVI ZADATAK - INFOSERVIS
 <table>
 <form>
 <tr>
-
-
 <td>
 Ime i prezime:
 </td>
 <td>
-<input type = "text" value="Unesite ime i prezime">
+<input type = "text" placeholder="Unesite ime i prezime">
 </td>
-
-
 </tr>
 <tr>
-
-
 <td>
 Email:
 </td>
 <td>
-<input type = "text" value="Unesite email adresu">
+<input type = "text" placeholder="Unesite e-mail:">
 </td>
-
-
 </tr>
-
-
 <tr>
-
-
 <td>
 Korisnično ime:
 </td>
 <td>
-<input type = "text" value="Unesite korisničko ime">
+<input type = "text" placeholder="Unesite korisničko ime">
 </td>
-
-
 </tr>
-
-
 <tr>
-
-
 <td>
 Lozinka
 </td>
 <td>
-<input type = "password">
+<input type = "password" placeholder="Unesite lozinku">
 </td>
-
-
 </tr>
 <tr>
 <td>
 Potvrda lozinke:
 </td>
 <td>
-<input type = "password">
+<input type = "password" placeholder="Potvrdite lozinku">
 </td>
 </tr>
-
-
 <tr>
 <td>
 Uslovi registracije:
@@ -117,14 +88,10 @@ Uslovi registracije:
 <input type = "checkbox" checked="checked">
 </td>
 </tr>
-
-
 <tr>
 <td colspan = "2" align = "center">
 <input type="submit" value="Posalji"> <input type = "reset" value = "Poništi">
 </td>
-
-
 </tr>
 </form>
 </table>
@@ -132,62 +99,40 @@ Uslovi registracije:
 </tr>
 </table>
 
-
 <hr>
-
 
 <table align="center">
 <tr>
-
-
 <td>
 Ime i prezime:
 </td>
 <td>
 <b>Mujo Mujic</b>
 </td>
-
-
 </tr>
 <tr>
-
-
 <td>
 Email:
 </td>
 <td>
 <b>mujo.mujic@mail.com</b>
 </td>
-
-
 </tr>
-
-
 <tr>
-
-
 <td>
 Korisnično ime:
 </td>
 <td>
 <b>mujo.mujic</b>
 </td>
-
-
 </tr>
-
-
 <tr>
-
-
 <td>
 Lozinka
 </td>
 <td>
 <b>123456</b>
 </td>
-
-
 </tr>
 <tr>
 <td>
@@ -197,8 +142,6 @@ Potvrda lozinke:
 <b>123456</b>
 </td>
 </tr>
-
-
 <tr>
 <td>
 Uslovi registracije:
@@ -209,15 +152,11 @@ Uslovi registracije:
 </tr>
 </table>
 
-
 </td>
-
-
 </tr>
 
-
 <tr> 
-<td width="25%">
+<td width="25%" valign="top">
 Sadržaj ćelije je vertikalno poravnat sa gornjom granicom.
 <ol type ="I">
 <li> opcija </li>
@@ -228,29 +167,201 @@ Sadržaj ćelije je vertikalno poravnat sa gornjom granicom.
 </ol>
 </td>
 
-
 <td width="25%" align="center" valign="bottom">
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
 Iznad ovog sadržaja napravljeno je 9 prekida reda. Sadržaj ove ćelije je horizontalno centriran, te vertikalno poravnat sa donjom granicom ćelije.
 </td>
 </tr>
 
-
 <tr bgcolor="#DDDDDD" align="center"> 
 <td colspan = "3">
-<i>Amira Midžić, 985</i>, &copy; 2014. | <a href="zadatak2.html" target="_none" > Drugi zadatak </a>
+<i>Midzic Hana, 1260</i>, &copy; 2014. | <a href="zadatak2.html" target="_none" > Drugi zadatak </a>
 </td>
 </tr>
 </table>
 
-
 </body>
-
-
 </html>
 
 
 CSS - PRVI ZADATAK - INFOSERVIS
+
+body {
+    font-family: Arial;
+    margin: 15px;
+    font-size: 14 px;
+}
+
+
+.navigacijskiDiv {
+    background-color: #EEEEFF;
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+
+.navigacijskiDiv ul {
+    text-decoration: none;
+    margin: 0px;
+}
+
+
+.navigacijskiDiv li {
+    display: inline;
+    border: 1px solid green;
+    padding: 5px;
+    text-align: center;
+    background-color: orange;
+}
+
+
+.navigacijskiDiv a:link {
+    text-decoration:none;
+    color: purple;
+}
+
+.navigacijskiDiv a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+.navigacijskiDiv a:hover {
+    text-decoration: underline;
+}
+
+
+h1.naslov {
+    border-bottom: 1px solid #AAAAAA;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+a.autor:link {
+    text-decoration: none;
+    color: #444444;
+    size: 14px;
+}
+
+a.autor:hover {
+    color:blue;
+    text-decoration: underline;
+}
+
+
+td.sadržaj {
+    padding: 3px;
+    text-align: left;
+    background-color: #F9F9F9;
+    border: 1px solid #AAAAAA;
+    width: 25%;
+    vertical-align: top;    
+}
+
+
+div.sadržaj {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.clanak {
+    vertical-align: top;
+    text-align:justify;
+    padding: 5px;
+    border: 1px solid #AAAAAA;
+}
+
+
+.clanak span.pojam {
+    font-weight:bold;
+}
+
+ul.navigacija {
+    list-style: none; /* Uklanja bilo kakvu numeraciju */
+    padding: 0;
+    margin: 0;
+}
+
+ul.navigacija li::before {
+    content: none; /* Uklanja generisani sadržaj brojača */
+}
+
+ol { counter-reset: item }
+li{ display: block }
+li:before { content: counters(item, ".") " "; counter-increment: item }
+
+
+
+ZADATAK 2 - NASLOV ČLANKA
+
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>I kolokvij - II zadatak</title>
+</head>
+
+<body>
+    <div class="navigacijskiDiv">
+        <ul>
+            <li><a href="zadatak2.html">Početna</a></li>
+            <li><a href="zadatak1.html">Prvi Zadatak</a></li>
+            <li><a href="hana.html">Ena-Esma Toromanovic</a></li>
+        </ul>
+</div>
+
+<h1 class="naslov">Naslov članka</h1>
+<p><a href="hana.html" class="autor">Autor članka - link</a></p>
+
+ <table width="100%" cellspacing="2"cellpadding="0">
+        <tr>
+            <td class="sadržaj">
+                <div class="sadržaj">Sadržaj</div>
+    <ol>
+        <li>Overview
+            <ol type="1">
+                <li>Motivation</li>
+                <li>Relationship to HTML</li>
+                <li>Adoption</li>
+                <li>Criticism</li>
+            </ol>
+        </li>
+        <li>Versions of XHTML
+            <ol>
+                <li>XHTML 1.0</li>
+                <li>Modularization of XHTML</li>
+                <li>XHTML 1.1: Module-based XHTML</li>
+                <li>Criticism
+                    <ol>
+                        <li>XHTML-Print</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+    </ol>
+
+            <td class="clanak">
+                <p>
+                    <span class="pojam">HTML (Extensible HyperText Markup Language</span>
+					is a family of XML markup languages that mirror or extend version of the widely used Hypertext Markup Language (HTML), 
+					the language in which web pages are written.
+                </p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
+ZADATAK 2 - CSS 
 
 body {
     font-family: Arial;
@@ -337,7 +448,11 @@ div.sadržaj {
     font-weight: bold;
     font-size: 15px;
 }
-
+.sadržaj{
+	ol { counter-reset: item }
+	li{ display: block }
+	li:before { content: counters(item, ".") " "; counter-increment: item }
+}
 
 .clanak {
     vertical-align: top;
@@ -351,63 +466,6 @@ div.sadržaj {
     font-weight:bold;
 }
 
-ZADATAK 2 - NASLOV ČLANKA
 
-<html>
-<head>
-<meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
-<link rel="stylesheet" type="text/css" href="style.css">
-<title>I kolokvij - II zadatak</title>
-</head>
 
-<body>
-    <div class="navigacijskiDiv">
-        <ul>
-            <li><a href="zadatak2.html">Početna</a></li>
-            <li><a href="zadatak1.html">Prvi Zadatak</a></li>
-            <li><a href="hana.html">Hana Midžić</a></li>
-        </ul>
-</div>
-
-<h1 class="naslov">Naslov članka</h1>
-<p><a href="hana.html" class="autor">Autor članka - link</a></p>
-
- <table width="100%" cellspacing="2"cellpadding="0">
-        <tr>
-            <td class="sadržaj">
-                <div class="sadržaj">Sadržaj</div>
-    <ol>
-        <li>Overview
-            <ol>
-                <li>Motivation</li>
-                <li>Relationship to HTML</li>
-                <li>Adoption</li>
-                <li>Criticism</li>
-            </ol>
-        </li>
-        <li>Versions of XHTML
-            <ol>
-                <li>XHTML 1.0</li>
-                <li>Modularization of XHTML</li>
-                <li>XHTML 1.1: Module-based XHTML</li>
-                <li>Criticism
-                    <ol>
-                        <li>XHTML-Print</li>
-                    </ol>
-                </li>
-            </ol>
-        </li>
-    </ol>
-
-            <td class="clanak">
-                <p>
-                    <span class="pojam">HTML (Extensible HyperText Markup Language</span>
-					is a family of XML markup languages that mirror or extend version of the widely used Hypertext Markup Language (HTML), 
-					the language in which web pages are written.
-                </p>
-            </td>
-        </tr>
-    </table>
-</body>
-</html>
 
