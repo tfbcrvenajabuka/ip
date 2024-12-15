@@ -1,0 +1,188 @@
+<!-- NASLOV CLANKA HTML -->
+
+
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>I kolokvij - II zadatak</title>
+</head>
+
+<body>
+    <div class="navigacijskiDiv">
+        <ul>
+            <li><a href="zadatak2.html">Početna</a></li>
+            <li><a href="zadatak1.html">Prvi Zadatak</a></li>
+            <li><a href="ime.html">Ime Prezime</a></li>
+        </ul>
+</div>
+
+<h1 class="naslov">Naslov članka</h1>
+<p><a href="hana.html" class="autor">Autor članka - link</a></p>
+
+ <table width="100%" cellspacing="2"cellpadding="0">
+        <tr>
+            <td class="sadržaj">
+                <div class="sadržaj">Sadržaj</div>
+    <ol>
+        <li>Overview
+            <ol type="1">
+                <li>Motivation</li>
+                <li>Relationship to HTML</li>
+                <li>Adoption</li>
+                <li>Criticism</li>
+            </ol>
+        </li>
+        <li>Versions of XHTML
+            <ol>
+                <li>XHTML 1.0</li>
+                <li>Modularization of XHTML</li>
+                <li>XHTML 1.1: Module-based XHTML</li>
+                <li>Criticism
+                    <ol>
+                        <li>XHTML-Print</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+    </ol>
+
+            <td class="clanak">
+                <p>
+                    <span class="pojam">HTML (Extensible HyperText Markup Language</span>
+					is a family of XML markup languages that mirror or extend version of the widely used Hypertext Markup Language (HTML), 
+					the language in which web pages are written.
+                </p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<1-- NASLOV CLANKA CSS -->
+
+
+
+body {
+    font-family: Arial;
+    margin: 15px;
+    font-size: 14 px;
+}
+
+
+.navigacijskiDiv {
+    background-color: #EEEEFF;
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+
+.navigacijskiDiv ul {
+    text-decoration: none;
+    margin: 0px;
+}
+
+
+.navigacijskiDiv li {
+    display: inline;
+    border: 1px solid green;
+    padding: 5px;
+    text-align: center;
+    background-color: orange;
+}
+
+
+.navigacijskiDiv a:link {
+    text-decoration:none;
+    color: purple;
+}
+
+.navigacijskiDiv a:visited {
+    color:blue;
+    text-decoration:none;
+}
+
+.navigacijskiDiv a:hover {
+    text-decoration:underline;
+}
+
+
+h1.naslov{
+    border-bottom: 1px solid #AAAAAA;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+a.autor:link {
+    text-decoration: none;
+    color: #444444;
+    size: 14px;
+}
+
+a.autor:hover {
+    color:blue;
+    text-decoration: underline;
+}
+
+
+td.sadržaj {
+    padding: 3px;
+    text-align: left;
+    background-color: #F9F9F9;
+    border: 1px solid #AAAAAA;
+    width: 25%;
+    vertical-align: top;    
+}
+
+
+div.sadržaj {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.sadržaj{
+	ol { counter-reset: item }
+	li{ display: block }
+	li:before { content: counters(item, ".") " "; counter-increment: item }
+}
+
+.clanak {
+    vertical-align: top;
+    text-align:justify;
+    padding: 5px;
+    border: 1px solid #AAAAAA;
+}
+
+
+.clanak span.pojam {
+    font-weight:bold;
+}
