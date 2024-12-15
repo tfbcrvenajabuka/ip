@@ -1,0 +1,115 @@
+<!-- PAPIR HTML -->
+
+
+<html>
+<head>
+  <mata http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+  <title>Papirus</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="papirus">
+    <p>
+      Dobrodošli na stranicu! Ovo je primjer teksta koji se prikazuje na pozadini sa slikom papira. 
+      <span class="vazanPojam">Ovaj pojam je važan</span> i dodatno istaknut.
+    </p>
+    
+    <p>
+      Možete dodati listu:
+    </p>
+    <ul class="Y">
+      <li>Circle type</li>
+      <li>Tea</li>
+      <li>Coca Cola</li>
+    </ul>
+
+    <p class="clanak">
+      Ovaj tekst može biti članak ili važan odlomak sa <span class="pojam">važnim pojmovima</span>.
+    </p>
+
+    <div class="linkovi">
+      <a href="https://www.pepsi.com/landing">Primjer linka</a>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- PAPIR CSS -->
+
+
+/* Klasa za div element sa pozadinskom slikom */
+.papirus {
+    background-image: url('papyrus.jpeg'); /* Pozadinska slika */
+    background-repeat: no-repeat; /* Slika se ne ponavlja */
+    height: 670px; /* Visina elementa */
+    width: 460px; /* Širina elementa */
+    margin-left: 95px; /* Razmak sa leve strane */
+    margin-right: 140px; /* Razmak sa desne strane */
+    margin-top: 85px; /* Razmak sa gornje strane */
+    text-align: justify; /* Poravnanje teksta sa obje strane */
+}
+
+/* Klasa za važne pojmove unutar papirus div-a */
+.vazanPojam {
+    font-weight: bold; /* Podebljana slova */
+    text-decoration: underline; /* Podvučena slova */
+    font-style: italic; /* Kursivna slova */
+}
+
+/* Klasa za neuređene liste */
+.Y {
+    list-style-type: none; /* Uklanjanje oznaka stavki liste */
+    margin-bottom: 5px; /* Donja margina */
+}
+
+/* Klasa za stavke neuređene liste */
+.Y li {
+    display: inline; /* Horizontalno pozicioniranje stavki */
+    border: 2px green dashed; /* Okvir sa zelenom isprekidanom linijom */
+    padding: 3px; /* Razmak između okvira i sadržaja */
+}
+
+/* Hover efekt za stavke liste */
+.Y li:hover {
+    background-color: brown; /* Boja pozadine pri prelazu kursora miša */
+}
+
+/* Klasa za pojam u članku */
+.pojam {
+    font-weight: bold; /* Podebljana slova */
+    text-decoration: underline; /* Podvučena slova */
+}
+
+/* Globalna CSS pravila za font i boje */
+body {
+    font-family: Arial, Tahoma, Verdana; /* Vrste fonta */
+    font-size: 12px; /* Veličina fonta */
+    color: black; /* Boja slova */
+}
+
+/* Klasa za linkove */
+.linkovi a:link {
+    text-decoration: none; /* Slova nisu podvučena */
+    color: brown; /* Boja slova */
+}
+
+.linkovi a:hover {
+    text-decoration: underline; /* Podvučena slova */
+    color: blue; /* Plava boja slova */
+    font-weight: bold; /* Podebljana slova */
+}
+
+.linkovi a:active {
+    background-color: brown; /* Smeđa pozadina pri aktivnom stanju linka */
+}
