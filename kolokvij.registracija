@@ -1,310 +1,114 @@
 ZADATAK 1 - REGISTRACIJA
 
-
 <html>
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
 <title>Prvi kolokvij - Zadatak 1</title>
 </head>
 
+<head>
+  <title>Prvi zadatak</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+</head>
+
+
 <body>
-<table width="100%" cellspacing="default" cellpadding="2" border="2">
-<tr bgcolor="#DDDDDD" align="center"> 
-<td colspan="3">
-<font face="Arial, Tahoma, Verdana" size="3"><b>I kolokvij - I zadatak</b></font>
+<table width="100%" cellpadding="2" border="0">
+<tr>
+<td colspan="2" bgcolor="black" align="center">
+<font face="Arial,Tahoma,Verdana" color="white" size="2">
+<b>(Internet programiranje) I KOLOKVIJ - I ZADATAK - GRUPA G1</b>
 </td>
 </tr>
 
-<tr> 
-<td rowspan="2" width="25%" align="left" valign="center">
-<b>Performatiran tekst može se koristiti za pisanje poezije
-te je ovaj tekst još podebljan.</b>
-</td>
 
-<td align="center">
-<i><b><u>Forma za registraciju</u></b></i>
-</td>
-
-<td rowspan="2" width="25%">
-<font color = "#44DD44" align="right">Slova paragrafa su obojana sa #44DD44 nijansom, zatim je izvršeno desno poravnanje. Iza ove rečenice izvršen je prekid reda. <br/><b>Ovaj tekst je još i podebljan.</b></font>
+<tr>
+<td colspan="2" align="center" bgcolor="#79C9D0">
+<a href = "https://tfb.ba/repozitorij/1/slike/galerija/hol/s11_max.jpg"><img src="slike/korisnik.png" title="slika" border="1" height="200" width="200"></a> <br>
+<a href="www.tfb.ba/clanak.jsf?cid=144" target="_blank"><b><i>DODJELA DIPLOMA</i></b></a>
 </td>
 </tr>
 
-<tr> 
-<td rowspan ="2">
+
+<tr>
+<td width="75%">
 <table>
-<tr align = "center">
-<td width="40%">
-<img src ="slike/add-user.jpg" width="100px" align="right">
+<tr>
+<td width="35%" align="left">
+<img src="slike/add-user.jpg"width="200" height="200">
 </td>
-<td width="60%">
+
+
+<td width="65%" align="center">
 <table>
-<form>
+<form name="korisnikForma" method="POST" action="mailto:hmidzic1260.tfb@unbi.ba"
 <tr>
-<td>
-Ime i prezime:
+<td colspan="2">
+<p><b><i><u>Registracija korisnika</u></i></b></p>
 </td>
+</tr>
+<tr>
+<td>Ime:</td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>Prezime:</td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>Tip korisnika:</td>
 <td>
-<input type = "text" placeholder="Unesite ime i prezime">
+<input type="radio" name="x" value="administrator">Administrator <br>
+<input type="radio" name="x" value="moderator">Moderator <br>
+<input type="radio" name="x" value="ObicniKorisnik">Obični korisnik <br>
 </td>
 </tr>
 <tr>
 <td>
-Email:
+<input type="submit" value="POŠALJI">
 </td>
 <td>
-<input type = "text" placeholder="Unesite e-mail:">
+<input type="reset" value="PONIŠTI">
 </td>
 </tr>
-<tr>
-<td>
-Korisnično ime:
-</td>
-<td>
-<input type = "text" placeholder="Unesite korisničko ime">
-</td>
-</tr>
-<tr>
-<td>
-Lozinka
-</td>
-<td>
-<input type = "password" placeholder="Unesite lozinku">
-</td>
-</tr>
-<tr>
-<td>
-Potvrda lozinke:
-</td>
-<td>
-<input type = "password" placeholder="Potvrdite lozinku">
-</td>
-</tr>
-<tr>
-<td>
-Uslovi registracije:
-</td>
-<td>
-<input type = "checkbox" checked="checked">
-</td>
-</tr>
-<tr>
-<td colspan = "2" align = "center">
-<input type="submit" value="Posalji"> <input type = "reset" value = "Poništi">
-</td>
-</tr>
+</table>
 </form>
-</table>
 </td>
 </tr>
 </table>
+</td>
 
-<hr>
 
-<table align="center">
-<tr>
-<td>
-Ime i prezime:
-</td>
-<td>
-<b>Mujo Mujic</b>
-</td>
-</tr>
-<tr>
-<td>
-Email:
-</td>
-<td>
-<b>mujo.mujic@mail.com</b>
-</td>
-</tr>
-<tr>
-<td>
-Korisnično ime:
-</td>
-<td>
-<b>mujo.mujic</b>
-</td>
-</tr>
-<tr>
-<td>
-Lozinka
-</td>
-<td>
-<b>123456</b>
-</td>
-</tr>
-<tr>
-<td>
-Potvrda lozinke:
-</td>
-<td>
-<b>123456</b>
-</td>
-</tr>
-<tr>
-<td>
-Uslovi registracije:
-</td>
-<td>
-<b>Prihvaćeni</b>
-</td>
-</tr>
-</table>
-
-</td>
-</tr>
-
-<tr> 
-<td width="25%" valign="top">
-Sadržaj ćelije je vertikalno poravnat sa gornjom granicom.
-<ol type ="I">
-<li> opcija </li>
-<li> opcija </li>
-<li> opcija </li>
-<li> opcija </li>
-<li> opcija </li>
+<td width="25%" valign="top" bgcolor="#79C9D0">
+<p><b>Fakulteti:</b></p>
+<ol>
+<li>Tehnički fakultet</li>
+<li>Pravni fakultet</li>
+<li>Pedagoški fakultet</li>
+<li>Ekonomski fakultet</li>
+<li>Biotehnički fakultet</li>
+<li>Fakultet zdravstvenih studija</li>
+<li>Islamski pedagoški fakultet</li>
 </ol>
 </td>
-
-<td width="25%" align="center" valign="bottom">
-<br/><br/><br/><br/><br/><br/><br/><br/><br/>
-Iznad ovog sadržaja napravljeno je 9 prekida reda. Sadržaj ove ćelije je horizontalno centriran, te vertikalno poravnat sa donjom granicom ćelije.
+</tr>
+<tr>
+<td colspan="2" height="5px" bgcolor="#BBFFFF">
 </td>
 </tr>
-
-<tr bgcolor="#DDDDDD" align="center"> 
-<td colspan = "3">
-<i>Midzic Hana, 1260</i>, &copy; 2014. | <a href="zadatak2.html" target="_none" > Drugi zadatak </a>
+<tr>
+<td colspan="2" align="center" bgcolor="#79C9D0">
+<b><i>Hana Midzic, 1260 &copy;</i></b>
+</td>
+</tr>
+<tr>
+<td colspan="2" height="5px" bgcolor="#BBFFFF">
 </td>
 </tr>
 </table>
-
 </body>
 </html>
 
-
-
-
-
-
-
-
-ZADATAK 1 - css 
-
-
-body {
-    font-family: Arial;
-    margin: 15px;
-    font-size: 14 px;
-}
-
-
-.navigacijskiDiv {
-    background-color: #EEEEFF;
-    padding: 10px;
-    border: 1px solid #DDDDDD;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 0.9em;
-    font-weight: bold;
-}
-
-
-.navigacijskiDiv ul {
-    text-decoration: none;
-    margin: 0px;
-}
-
-
-.navigacijskiDiv li {
-    display: inline;
-    border: 1px solid green;
-    padding: 5px;
-    text-align: center;
-    background-color: orange;
-}
-
-
-.navigacijskiDiv a:link {
-    text-decoration:none;
-    color: purple;
-}
-
-.navigacijskiDiv a:visited {
-    color: blue;
-    text-decoration: none;
-}
-
-.navigacijskiDiv a:hover {
-    text-decoration: underline;
-}
-
-
-h1.naslov {
-    border-bottom: 1px solid #AAAAAA;
-    font-size: 1.6em;
-    text-transform: uppercase;
-    margin-bottom: 0px;
-}
-
-a.autor:link {
-    text-decoration: none;
-    color: #444444;
-    size: 14px;
-}
-
-a.autor:hover {
-    color:blue;
-    text-decoration: underline;
-}
-
-
-td.sadržaj {
-    padding: 3px;
-    text-align: left;
-    background-color: #F9F9F9;
-    border: 1px solid #AAAAAA;
-    width: 25%;
-    vertical-align: top;    
-}
-
-
-div.sadržaj {
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-
-.clanak {
-    vertical-align: top;
-    text-align:justify;
-    padding: 5px;
-    border: 1px solid #AAAAAA;
-}
-
-
-.clanak span.pojam {
-    font-weight:bold;
-}
-
-ul.navigacija {
-    list-style: none; /* Uklanja bilo kakvu numeraciju */
-    padding: 0;
-    margin: 0;
-}
-
-ul.navigacija li::before {
-    content: none; /* Uklanja generisani sadržaj brojača */
-}
-
-ol { counter-reset: item }
-li{ display: block }
-li:before { content: counters(item, ".") " "; counter-increment: item }
 
 
 
