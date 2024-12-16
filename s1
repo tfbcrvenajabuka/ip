@@ -1,0 +1,275 @@
+--- REGISTRACIJA --- 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registracija</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="meni">
+        <ul>
+            <li><a href="pocetna.html">Početna</a></li>
+            <li><a href="galerija.html">Galerija</a></li>
+            <li><a href="registracija.html" class="active">Registracija</a></li>
+        </ul>
+    </div>
+	<div class="pocetnaslika"></div>
+    <div class="divbody">
+        <h1>Registrujte se </h1>
+		<p>Molimo popunite sva polja </p>
+        <form action="mailto:tfb@unbi.ba" method="post" enctype="text/plain">
+		<label for="email"><b>Email</b></label><br>
+            <input type="text" placeholder="Unesite email" name="email" required> <br>
+			
+            <label for="password"><b>Lozinka</b></label><br>
+            <input type="password" placeholder="Unesite lozinku" name="password" required><br>
+            
+            
+            <label for="password"><b>Ponovite lozinku</b></label><br>
+            <input type="password" placeholder="Ponovite lozinku" name="password" required><br><br>
+            
+           
+            <label>
+                Registracijom se slažete sa našim <a href="./reference/specifikacija_IK.pdf" target="_blank">USLOVIMA</a>
+            </label><br><br>
+            
+            <button type="submit" class="registerbtn">REGISTRACIJA</button>
+        </form>
+        
+    </div>
+	<footer>
+        <p style="text-align: center;">Razija Merdanić, 1275</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+---- POCETNA ----
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Početna</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="meni">
+        <ul>
+            <li><a href="pocetna.html" class="pocetna">Početna</a></li>
+            <li><a href="galerija.html">Galerija</a></li>
+            <li><a href="registracija.html">Registracija</a></li>
+        </ul>
+    </div>
+    <div class="pocetnaslika"></div>
+    <div class="divbody">
+        <h1>Dobrodošli na našu stranicu!</h1>
+        <p>Ovo je početna stranica.</p>
+    </div>
+	  <footer>
+        <p style="text-align: center;">Razija Merdanić, 1275</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+---- GALERIJA ------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="meni">
+        <ul>
+            <li><a href="pocetna.html">Početna</a></li>
+            <li><a href="galerija.html" class="active">Galerija</a></li>
+            <li><a href="registracija.html">Registracija</a></li>
+        </ul>
+    </div>
+    <div class="divbody">
+        <h1>Ponuda vozila</h1>
+        <div >
+            <!-- Prikaz slika -->
+            <img src="Slika1.jpg" alt="Vozilo 1" title="Vozilo 1" width="200" height="200" border="0">
+            <img src="Slika2.jpg" alt="Vozilo 2" title="Vozilo 2" width="200" height="200" border="0">
+            <img src="Slika3.jpg" alt="Vozilo 3" title="Vozilo 3" width="200" height="200" border="0">
+            <img src="Slika4.jpg" alt="Vozilo 4" title="Vozilo 4" width="200" height="200" border="0">
+            <img src="Slika5.jpg" alt="Vozilo 5" title="Vozilo 5" width="200" height="200" border="0">
+            <img src="Slika6.jpg" alt="Vozilo 6" title="Vozilo 6" width="200" height="200" border="0">
+            <img src="Slika7.jpg" alt="Vozilo 7" title="Vozilo 7" width="200" height="200" border="0">
+            <img src="Slika8.jpg" alt="Vozilo 8" title="Vozilo 8" width="200" height="200" border="0">
+            <img src="Slika9.jpg" alt="Vozilo 9" title="Vozilo 9" width="200" height="200" border="0">
+            <img src="Slika10.jpg" alt="Vozilo 10" title="Vozilo 10" width="200" height="200" border="0">
+            <img src="Slika11.jpg" alt="Vozilo 11" title="Vozilo 11" width="200" height="200" border="0">
+            <img src="Slika12.jpg" alt="Vozilo 12" title="Vozilo 12" width="200" height="200" border="0">
+        </div>
+    </div>
+	<footer>
+        <p style="text-align: center;">Razija Merdanić, 1275</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+---- CSS.CSS ----
+
+
+
+body {
+    background-color: #f0f0f2;
+    margin: 0px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container{
+	background-color: white;
+	padding: 16px;
+}
+
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border:none;
+	background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+.hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+}
+
+.registerbtn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16 px 20px;
+	margin: 8 px;
+    border: none;
+	cursor:pointer;
+	width: 100%;
+	opacity: 0.9;
+}
+
+.registerbtn:hover {
+	opacity:1;
+}
+a {
+	color: dodgerblue;
+}
+
+.singin {
+	background-color: #f1f1f1;
+	text-align: center;
+}
+
+.divbody {
+    width: 600px;
+    margin: auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+	float:left;
+}
+
+.li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.meni {
+	width: 100%;
+	text-align:center;
+}
+
+.tijelo {
+	width: 1200px;
+	padding-top: 0;
+	align:center;
+}
+
+.pocetnaslika {
+    background-image: url("pocetna.jpg");
+    width: 100%;
+    height: 500px;
+    background-position: center;
+}
+.meni ul li a {
+    display: block;
+    color: white; /* Bijela boja za tekst */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /* Uklanja podvlačenje */
+    width: 100%;
+}
+
+.meni ul li a:hover {
+    background-color: #111; /* Tamno siva pozadina pri hoveru */
+}
+.meni ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+
+.meni ul li {
+    display: inline;
+}
+.pocetna {
+	background-color: #4CAF50;
+}
